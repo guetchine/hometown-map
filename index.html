@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset=utf-8 />
-	<title>Web Page Template</title>
+	<title>My hometown project</title>
 	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
@@ -74,7 +74,7 @@
 
 		<!-- This is an HTML comment. Find the comments below and follow the instructions. -->
 
-		<h1>Lexington,KY</h1>
+		<h1>Jeremie: the city of poets</h1>
 
 		<div id='map'></div>
 
@@ -87,13 +87,8 @@
 		<ul>
 			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
 			<li>See my projects on GitHub:
-				<a href="https://github.com/newmapsplus">New Maps Plus</a>
+				<a href="https://github.com/newmapsplus/map671-module-01-guetchine">New Maps Plus</a>
 			</li>
-			<li>Follow me on twitter:
-				<a href="https://twitter.com/NewMapsPlus">@NewMapsPlus</a>
-			</li>
-			<li>Visit my
-				<a href='#'>mapping portfolio</a>.</li>
 		</ul>
 	</section>
 
@@ -105,8 +100,8 @@
 
 		// map options
 		var options = {
-			center: [38.0406, -84.5037], // lat/lon values
-			zoom: 12
+			center: [18.6390, -74.1181], // lat/lon values
+			zoom: 15
 		}
 
 		// create a Leaflet map in our division container with id of 'map'
@@ -120,7 +115,7 @@
 		}).addTo(map);
 
 		// write a custom message for the Leaflet tooltip
-		var message = 'Lexington is awesome!';
+		var message = 'Jeremie is splendid!';
 
 		// add a marker to the center of the map and open the tooltip
 		L.marker(map.getCenter())
